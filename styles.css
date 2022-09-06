@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Global styling to reset everthing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set main styling as according to design. */
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    max-width: 1440px;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Card styling */
+.main-card {
+    height: 480px;
+    width: 300px;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.image-container {
+    align-self: center;
+    padding: 15px;
+}
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.main-card .card-description {
+    text-align: center;
+}
+.main-card .card-description h3 {
+    margin: 10px;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+}
+.main-card .card-description p {
+    font-size: 15px;
+    margin: 10px;
+    color: hsl(220, 15%, 55%);
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+    color: hsl(218, 44%, 22%);
+    
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    color:crimson;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        max-width: 375px;
+    }
+
+    .main-card {
+        max-height: 480px;
+    }
+
+    .image-container {
+        max-width: 280px;
+    }
+}
