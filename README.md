@@ -25,8 +25,8 @@ Just brushing up on my frontend skills from the basics.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/CalibB/qr-code-component-challenge)
+- Live Site URL: [qr-code-component-challenge](https://calibb.github.io/qr-code-component-challenge/)
 
 ## My process
 
